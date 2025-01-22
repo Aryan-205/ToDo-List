@@ -1,0 +1,63 @@
+body {
+  background-color: rgba(13,17,22,255);
+  color: white;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+  justify-items: center;
+  padding-top: 140px;
+}
+.todo-box {
+  background-color: rgba(45,27,83,255);
+  padding: 20px 40px 40px 40px;
+  border: 2px solid rgba(64,50,96,255);
+  border-radius: 8px;
+  margin-bottom: 300px;
+}
+.task-box {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  justify-self: center;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  align-self: center;
+}
+input {
+  width: 240px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 8px;
+  border:2px solid black;
+  font-family: Roboto,Arial;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.delete-button, .ToDo-button {
+  background-color: rgba(64,50,96,255);
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 0px 30px 0px 30px;
+  height: 40px;
+  color: rgb(193, 218, 254);
+  font-size: 20px;
+  font-weight: 400;
+  align-self: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.delete-button:hover {
+  padding: 0px 40px 0px 40px;
+}
+.ToDo-button:hover {
+  background-color: rgb(193, 218, 254);
+  color: rgba(64,50,96,255);
+}
+.ToDo-button:active {
+  opacity: 0.5;
+}
+
+
